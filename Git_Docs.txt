@@ -44,3 +44,10 @@ Get source branch and merges it with current branch
 git checkout -b {new branch name}
 Creates new branch and swithes to it.
 
+git push origin
+Pushes changes up to github
+
+git pull
+Pulls changes from github
+
+
