@@ -1,1 +1,30 @@
 This is a basic guide to know what commands are available in git and how/what each is for.
+
+This tutorial was from this link: https://www.youtube.com/watch?v=8ANnZn_8_Qg and is for git command line and vscode
+
+git init:
+Initializes current folder as a git repository
+
+git branch -m master main:
+Changes the branch name
+
+git status:
+Shows status of changes in the the repo. Commits, tracked files, etc
+
+git add {file name}:
+Stages file so that it is tracked but not comitted to the DB
+
+git commit -m "Message here"
+Commits changes to the DB
+
+git add .
+Adds all files to staging
+
+git reset {file name}
+Removes file from staged status
+
+git commit -a -m "message status"
+adds and commits files, essentially cutting out staging the files
+
+git log
+shows all commits
