@@ -27,4 +27,20 @@ git commit -a -m "message status"
 adds and commits files, essentially cutting out staging the files
 
 git log
-shows all commits
+Shows all commits
+
+git branch {branch directory like feature/new-button}
+Created a branch that will seperate from the main branch
+
+git branch
+List branches
+
+git checkout {branch name}
+Switches your current branch to the branch of choice
+
+git merge {Name branch}
+Get source branch and merges it with current branch
+
+git checkout -b {new branch name}
+Creates new branch and swithes to it.
+
